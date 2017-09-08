@@ -1,0 +1,69 @@
+.ui-title {
+    font-size: 25px !important;
+}
+.ui-content {
+    font-size: 20px;
+}
+#heart-rate-value {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    font-size: 17vh;
+    font-weight: bold;
+    z-index: 100;
+    margin-top: 15%;
+    color: #ffffff;
+}
+#heart {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+}
+#heart-img {
+    margin: 5% auto;
+    background-image: url(../images/heart.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+}
+
+.ui-footer {
+    background-color: transparent;
+}
+.info-text {
+    text-align: left;
+    color: #ffffff;
+    font-size: 24px;
+}
+@-webkit-keyframes heartMove360 {
+    0%, 50%, 100% {
+        width: 35%;
+        height: 35%;
+    }
+    25%, 75% {
+        width: 45%;
+        height: 45%;
+    }
+}
+@media screen and (-tizen-geometric-shape: circle) {
+    .ui-header {
+        height: 90px;
+    }
+    #heart-img {
+        width: 45%;
+        height: 45%;
+    }
+    .animate {
+        -webkit-animation: heartMove360 1.5s infinite;
+    }
+    .ui-footer {
+        height: 20%;
+    }
+    .info-text {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

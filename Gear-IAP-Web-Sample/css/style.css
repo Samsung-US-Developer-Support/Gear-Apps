@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+
+.ui-listview li.li-has-multiline {
+	padding-top: 6px;
+	padding-bottom: 5px;
+	min-height: 100px;
+}
+.ui-listview li .li-text-sub {
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 32px;
+	font-size: 21px;
+}
+
+
+  .ui-popup-content {
+        text-align: center;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 20% !important;
+    }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Heart Rate Monitor</title>
+	
+	<!-- ******** Loading style css file of the application ************************ -->
+	
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" 
+		  href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+
+	<!-- ******** Launch page of the applicatin************************************* -->
+	
+	<div class="ui-page ui-page-active" id="main">
+		<div class="ui-header">
+            <h2 class="ui-title">Heart Rate Monitor</h2>
+        </div>  
+        
+        <div class="ui-content">
+            <div id="heart-rate-value"></div>
+            <div id="heart">
+                <div id="heart-img"></div>
+            </div>
+        </div>
+		<footer class="ui-footer ui-bottom-button">
+            <a id="hrm-control-btn" class="ui-btn">Start</a>
+        </footer>
+	</div>
+	
+	<!--***** Below page will be shown when Stop button is tapped by the user****** -->
+	
+	<div class="ui-page" id="info">
+		<div class="ui-header">
+			<h2 class="ui-title">HRM Info</h2>
+		</div>
+		<div class="ui-content">
+			<div class="info-text">
+				not enough info recorded.
+			</div>
+		</div>
+        <footer class="ui-footer ui-bottom-button">
+            <a id="info-back-btn" class="ui-btn">Back</a>
+        </footer>
+    </div>
+	
+	<!-- ****** Below page will be show the user heart rate information************ -->
+	
+	<div class="ui-page" id="information">
+		<header class="ui-header">
+			<h2 class="ui-title">HRM Information</h2>
+		</header>
+		<div class="ui-content">
+			<ul class="ui-listview">
+				<li id ="currentHR">Current HR</li>
+				<li id ="maxHR">Max HR</li>
+				<li id ="minHR">Min HR</li>
+				<li id ="avgHR">Avg HR</li>
+			</ul>
+		</div>
+		<!--**************** Button to deeplink to ABC Mouse application *********** -->
+		 <footer class="ui-footer ui-bottom-button">
+            <a id="idDeeplink" class="ui-btn">On Phone</a>
+        </footer>
+        
+	</div>
+	
+	<!-- ******** Loading javascript file of the application *********************** -->
+	
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="js/circle-helper.js"></script>
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>
+	
+</body>
+</html>

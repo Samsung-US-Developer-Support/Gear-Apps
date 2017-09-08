@@ -1,0 +1,23 @@
+# ninja log v5
+246	1490	0	res/edje/setting.edj	c7b2656ec77418f
+0	96	0	clean_sa	4c96bf98c7d9ab47
+96	373	0	clean	d59b6dac04fa9b5d
+211	885	0	res/edje/setting.edj	c7b2656ec77418f
+0	94	0	clean_sa	4c96bf98c7d9ab47
+94	377	0	clean	d59b6dac04fa9b5d
+0	97	0	clean_sa	4c96bf98c7d9ab47
+97	337	0	clean	d59b6dac04fa9b5d
+210	2560	0	res/edje/setting.edj	c7b2656ec77418f
+0	88	0	clean_sa	4c96bf98c7d9ab47
+88	352	0	clean	d59b6dac04fa9b5d
+0	78	0	clean_sa	4c96bf98c7d9ab47
+79	325	0	clean	d59b6dac04fa9b5d
+224	1655	0	res/edje/setting.edj	c7b2656ec77418f
+1	1573	0	src/iapnativesample.o	44a6bb615094ce69
+1579	3077	0	iapnativesample	7e012e899707bfe2
+3	2371	0	src/iapnativesample.o	34bd311a108a35d6
+2374	3851	0	iapnativesample	80c46635d7157d9d
+2	1562	0	src/iapnativesample.o	34bd311a108a35d6
+1562	2998	0	iapnativesample	80c46635d7157d9d
+2	1543	0	src/iapnativesample.o	34bd311a108a35d6
+1543	2832	0	iapnativesample	80c46635d7157d9d

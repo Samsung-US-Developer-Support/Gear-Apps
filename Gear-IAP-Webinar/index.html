@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	
+	<!-- load theme file for application -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="welcome()">
+
+<!-- WELCOME PAGE -->
+<div class="ui-page ui-page-active" id ="welcome">
+				
+		<div class="ui-header">
+            <h2 class="ui-title"></h2>
+        </div>  
+        
+        <div class="ui-content">
+            <div class="welcome-title">Welcome to Gear Game App</div>
+        </div>
+		
+		<footer class="ui-footer ui-bottom-button">
+            <a id="play_btn" class="ui-btn">Play</a>
+        </footer>
+</div>
+
+
+<!---- GAME PAGE ---->
+<div class="ui-page" id="more">
+		
+		<div class="ui-header">
+            <h2 class="ui-title">Game</h2>
+        </div>  
+        
+		<div class="ui-content">
+			<div> <img class ="game-img" /> </div>
+		</div>
+		
+		<footer class="ui-footer ui-bottom-button">
+           <img id="more_btn" class ="more-img" src="/image/more_img.png"/>
+        </footer>
+</div>
+
+
+<!---- ITEM LIST PAGE ---->
+<div class="ui-page" id="optionList">
+		
+		<div class="ui-header">
+            <h2 class="ui-title">select option</h2>
+        </div>  
+        
+		<div class="ui-content">
+			<ul class="ui-listview">
+				<li class="li-has-thumb-left" id ="idRemoveAds">
+				 	<img  src="/image/remove_add.png"  class="ui-li-thumb-left" >
+					<div class="ui-marquee" id="remove-ads-text"></div>
+				</li>
+				 <li class="li-has-thumb-left" id ="idMoreCoins">
+		            <img  src="/image/more_coins.png"  class="ui-li-thumb-left">
+					<div  class="ui-marquee" id="get-more-coins-text"></div>
+		        </li>
+				<li class="li-has-thumb-left" id ="idUnlockNewLevel">
+			 		<img  src="/image/unlock_level.png" class="ui-li-thumb-left">
+					<div class="ui-marquee" id="unlock-new-level-text"></div>
+				</li>
+			</ul>
+		</div>
+</div>
+
+
+<!-- Buy PAGE -->
+<div class="ui-page" id="buy">		
+		
+		<div class="ui-header">
+            <h2 class="ui-title">select</h2>
+        </div>
+		
+		<div class="ui-content">        
+             <ul class="ui-listview">										
+				  <li class="li-has-singleline" id ="buy_btn">
+							Buy
+				  </li>	
+				  <li class="li-has-singleline" id="purchase_btn">
+				 			Purchased items
+				  </li>	
+			 </ul>				
+		</div>	
+</div>
+
+<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+<script type="text/javascript" src="js/circle-helper.js"></script>
+<script type="text/javascript" src="js/list_marquee_style.js"></script>
+<script src="app.js"></script>
+<script src="lowBatteryCheck.js"></script>
+	
+</body>
+</html>

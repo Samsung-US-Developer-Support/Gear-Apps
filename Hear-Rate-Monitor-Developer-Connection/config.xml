@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/DeveloperConnectionSample" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="8JNTWwwj8W.DeveloperConnectionSample" package="8JNTWwwj8W" required_version="2.3.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>Workshop</name>
+    <!--healthinfo permission is required to read the heart rate data  -->
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    
+    <!-- Below 2 permssion required for deep linking http://img-developer.samsung.com/onlinedocs/gear/Extension_PG_Web/html/prog_guide/remote_ww.htm-->
+   
+    <tizen:privilege name="http://developer.samsung.com/tizen/privilege/accessoryprotocol"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>

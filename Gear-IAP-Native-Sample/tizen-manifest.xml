@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="com.samsung.iapnativesample" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="com.samsung.iapnativesample" exec="iapnativesample" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>iapnativesample</label>
+        <icon>iapnativesample.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/billing</privilege>
+    </privileges>
+</manifest>

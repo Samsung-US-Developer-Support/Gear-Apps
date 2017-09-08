@@ -1,0 +1,65 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#116DD1;
+    
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+}
+
+
+.content_text {
+	font-weight:bold;
+	font-size:8em;
+	color:#fff;
+}
+
+#idDeepLink_Old{
+	
+	position: absolute;
+	left: 80px;
+    top: 50px;
+    background: #13AA99;
+    border: 5px solid #93AD21;
+    width: 210px;
+    height: 70px;    
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+#idDeepLinkNewExplicit{
+	
+	position: absolute;
+	left: 80px;
+    top: 140px;
+    background: #13AA99;
+    border: 5px solid #93AD21;
+    width: 210px;
+    height: 70px;    
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+#idDeepLinkNewimplicit{
+	
+	position: absolute;
+	left: 80px;
+    top: 230px;
+    background: #13AA99;
+    border: 5px solid #93AD21;
+    width: 210px;
+    height: 70px;    
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}

@@ -1,0 +1,124 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.normalBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/background.png");
+}
+
+.amibentBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/ambient.png");
+}
+
+#index {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/index.png");
+}
+
+#components-main {
+    position: absolute;
+    width: 100%;
+}
+
+#hand-main-hour {
+    position: absolute;
+    left: 170px;
+    top:80px;
+    width: 21px;
+    height: 111px;
+    background-image: url("../image/hour_hand.png");
+    transform-origin: 50% 90%;
+   
+}
+
+#hand-main-minute {
+    position: absolute;
+    left: 174px;
+    top: 38px;
+    width: 12px;
+    height: 149px;
+    background-image: url("../image/minute_hand.png");
+    background-position: center top;
+    background-size: contain;
+    transform-origin: 50% 95.3%;
+}
+
+#hand-main-second {
+    position: absolute;
+    left: 174px;
+    top: 32px;
+    width: 12px;
+    height: 178px;
+    background-image: url("../image/seconds_hand.png");
+    background-position: center top;
+    background-size: contain;
+    transform-origin: 50% 83.15%;
+}
+
+#components-steps {
+	position: absolute;
+	left: 134px;
+    top: 213px;
+    width: 92px;
+    height: 92px;
+    background-image: url("../image/steps_bg_03.png");
+    background-size: contain;
+}
+
+#step-icon {
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 92px;
+    height: 92px;
+    background-image: url("../image/icon_steps_03.png");
+    background-size: contain;
+}
+
+#step-count {
+	position: absolute;
+	left: 0px;
+    top: 38px;
+    width:92px;
+    height:20px;
+    color:#116DD1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#step-text {
+	position: absolute;
+	left: 0px;
+    top: 58px;
+    width:92px;
+    height:20px;
+    color:#AAAAAA;
+    text-align: center;
+}
+
+#action-steps {
+	position: absolute;
+	left: 134px;
+    top: 213px;
+    width: 92px;
+    height: 92px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+

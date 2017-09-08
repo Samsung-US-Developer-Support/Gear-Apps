@@ -1,0 +1,85 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+.welcome-title{
+    font-size: 34px;
+    color: rgba(116,196,252,1);
+    font-weight: bold;
+    height: 36px;
+    display: inline-block;
+    width: auto;
+    margin:15px;
+    text-align: center;
+}
+
+.ui-footer {
+    background-color: transparent;
+}
+
+.game-img{
+	width: 300px;
+    height: 167px;
+    margin:auto;
+    display:block;
+    background-image: url("/image/game_play.jpg");   
+}
+
+.more-img{
+	width: 213px;
+    height: 76px;
+    margin-left: 72px;
+}
+
+.ui-listview li.li-has-thumb-left .ui-marquee {
+	font-size: 27px;
+	padding-left: 50px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate3d(0, -50%, 0);
+}
+
+.ui-listview li img {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate3d(0, -50%, 0);
+	width: 72px;
+	height: 72px;
+}
+
+.ui-listview li.li-has-thumb-left img {
+	border-radius: 50%;
+	left: 16px;
+}
+
+.ui-listview li.li-has-singleline{
+	padding-top: 7px;
+	padding-bottom: 3px;
+	min-height: 100px;
+}
+
+.ui-popup-content {
+      text-align: center;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      padding-top: 20% !important;
+   }
+    
+@media screen and (-tizen-geometric-shape: circle) {
+    .ui-header {
+        height: 90px;
+    }
+    .ui-footer {
+        height: 20%;
+    }
+    .info-text {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
